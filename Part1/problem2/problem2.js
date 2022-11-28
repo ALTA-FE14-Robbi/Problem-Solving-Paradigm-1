@@ -1,5 +1,5 @@
-function moneyChange(money) {
-  // Your code here
+function dragonOfLoowater(dragonHead, knightHeight) {
+  //  Your code here
 }
 
-module.exports = moneyChange;
+module.exports = dragonOfLoowater;

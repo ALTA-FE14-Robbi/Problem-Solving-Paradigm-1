@@ -1,17 +1,14 @@
-const moneyChange = require("./problem2");
+const dragonOfLoowater = require("./problem3");
 
 test("Test 1", () => {
-  expect(moneyChange(123)).toEqual([100, 20, 1, 1, 1]);
+  expect(dragonOfLoowater([5, 4], [7, 8, 4])).toEqual(11);
 });
 test("Test 2", () => {
-  expect(moneyChange(432)).toEqual([200, 200, 20, 10, 1, 1]);
+  expect(dragonOfLoowater([5, 10], [5])).toEqual("knight fall");
 });
 test("Test 3", () => {
-  expect(moneyChange(543)).toEqual([500, 20, 20, 1, 1, 1]);
+  expect(dragonOfLoowater([7, 2], [4, 3, 1, 2])).toEqual("knight fall");
 });
 test("Test 4", () => {
-  expect(moneyChange(7752)).toEqual([5000, 2000, 500, 200, 50, 1, 1]);
-});
-test("Test 5", () => {
-  expect(moneyChange(15321)).toEqual([10000, 5000, 200, 100, 20, 1]);
+  expect(dragonOfLoowater([7, 2], [2, 1, 8, 5])).toEqual(10);
 });

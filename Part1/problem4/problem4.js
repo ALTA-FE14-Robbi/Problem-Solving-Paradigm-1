@@ -1,5 +1,5 @@
-function binarySearch(array, x) {
+function lottery(num) {
   // Your code here
 }
 
-module.exports = binarySearch;
+module.exports = lottery;

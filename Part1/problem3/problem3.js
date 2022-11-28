@@ -1,5 +1,10 @@
-function dragonOfLoowater(dragonHead, knightHeight) {
-  //  Your code here
+function jajanBoba(uang, callback) {
+  // Your code here
 }
 
-module.exports = dragonOfLoowater;
+function jajanSeblak(uang) {
+  // Your code here
+}
+
+jajanBoba(20000, jajanSeblak);
+jajanBoba(10000, jajanSeblak);

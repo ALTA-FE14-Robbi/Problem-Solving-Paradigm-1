@@ -1,6 +1,6 @@
 # Problem-Solving-Paradigm-1
 
-Tugas Alta Immersive Frontend Fundamental Programming (Brute Force & Greedy)
+Tugas Alta Immersive Frontend Fundamental Programming (Asynchronous, Brute Force, & Greedy)
 
 ## Tata Cara Pengerjakan Tugas
 
